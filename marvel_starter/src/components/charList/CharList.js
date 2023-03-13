@@ -1,11 +1,13 @@
 import "./charList.scss";
-import { Component } from "react";
+import React , { Component } from "react";
+import PropTypes from 'prop-types';
 
 import MarvelService from "../../services/MarvelService";
 import ErrorMessage from "../errorMessage/ErrorMessage";
 import Spinner from "../spinner/Spinner";
 
 class CharList extends Component {
+
   state = {
     charList: [],
     loading: true,
@@ -53,6 +55,8 @@ class CharList extends Component {
     });
   };
 
+  
+
   renderItems(arr) {
     const items = arr.map((item) => {
         let imgStyle = {'objectFit' : 'cover'};
@@ -97,6 +101,10 @@ class CharList extends Component {
       </div>
     );
   }
+}
+
+CharList.propTypes = {
+  onCharSelected: PropTypes.func.isRequired
 }
 
 export default CharList;
