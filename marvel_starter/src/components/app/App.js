@@ -3,9 +3,11 @@ import RandomChar from "../randomChar/RandomChar";
 import CharList from "../charList/CharList";
 import CharInfo from "../charInfo/CharInfo";
 import ErrorBoundary from "../errorBoundary/ErrorBoundary";
+import SingleComic from "../singleComic/SingleComic";
 
 import decoration from "../../resources/img/vision.png";
 import React , { useState } from "react";
+import ComicsList from "../comicsList/ComicsList";
 
 const App = () => {
 
@@ -23,13 +25,17 @@ const App = () => {
           <ErrorBoundary>
             <RandomChar />
           </ErrorBoundary>
-          <div className="char__content">
+          {/* <div className="char__content">
             <ErrorBoundary>
               <CharList onCharSelected={onCharSelected} />
             </ErrorBoundary>
             <ErrorBoundary>
               <CharInfo charId={selectedChar} />
             </ErrorBoundary>
+          </div> */}
+          <div className="char__comics">
+            <ComicsList/>
+            {/* <SingleComic/> */}
           </div>
           <img className="bg-decoration" src={decoration} alt="vision" />
         </main>
