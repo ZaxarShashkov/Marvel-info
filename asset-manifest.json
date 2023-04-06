@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Marvel-info/static/css/main.ee520130.chunk.css",
-    "main.js": "/Marvel-info/static/js/main.0d459ca6.chunk.js",
-    "main.js.map": "/Marvel-info/static/js/main.0d459ca6.chunk.js.map",
+    "main.css": "/Marvel-info/static/css/main.addcbd09.chunk.css",
+    "main.js": "/Marvel-info/static/js/main.2d4a1abd.chunk.js",
+    "main.js.map": "/Marvel-info/static/js/main.2d4a1abd.chunk.js.map",
     "runtime-main.js": "/Marvel-info/static/js/runtime-main.5cbccdc2.js",
     "runtime-main.js.map": "/Marvel-info/static/js/runtime-main.5cbccdc2.js.map",
-    "static/js/2.15f7aae1.chunk.js": "/Marvel-info/static/js/2.15f7aae1.chunk.js",
-    "static/js/2.15f7aae1.chunk.js.map": "/Marvel-info/static/js/2.15f7aae1.chunk.js.map",
+    "static/js/2.cbcd94bf.chunk.js": "/Marvel-info/static/js/2.cbcd94bf.chunk.js",
+    "static/js/2.cbcd94bf.chunk.js.map": "/Marvel-info/static/js/2.cbcd94bf.chunk.js.map",
     "index.html": "/Marvel-info/index.html",
-    "static/css/main.ee520130.chunk.css.map": "/Marvel-info/static/css/main.ee520130.chunk.css.map",
-    "static/js/2.15f7aae1.chunk.js.LICENSE.txt": "/Marvel-info/static/js/2.15f7aae1.chunk.js.LICENSE.txt",
+    "static/css/main.addcbd09.chunk.css.map": "/Marvel-info/static/css/main.addcbd09.chunk.css.map",
+    "static/js/2.cbcd94bf.chunk.js.LICENSE.txt": "/Marvel-info/static/js/2.cbcd94bf.chunk.js.LICENSE.txt",
     "static/media/Avengers.4065c8f9.png": "/Marvel-info/static/media/Avengers.4065c8f9.png",
     "static/media/Avengers_logo.9eaf2193.png": "/Marvel-info/static/media/Avengers_logo.9eaf2193.png",
     "static/media/mjolnir.61f31e18.png": "/Marvel-info/static/media/mjolnir.61f31e18.png",
@@ -17,8 +17,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5cbccdc2.js",
-    "static/js/2.15f7aae1.chunk.js",
-    "static/css/main.ee520130.chunk.css",
-    "static/js/main.0d459ca6.chunk.js"
+    "static/js/2.cbcd94bf.chunk.js",
+    "static/css/main.addcbd09.chunk.css",
+    "static/js/main.2d4a1abd.chunk.js"
   ]
 }
