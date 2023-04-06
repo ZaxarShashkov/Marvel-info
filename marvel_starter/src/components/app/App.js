@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import AppHeader from "../appHeader/AppHeader";
 import MainPage from "../pages/MainPage";
@@ -11,14 +11,10 @@ const App = () => {
       <div className="app">
         <AppHeader />
         <main>
-          <Switch>
-            <Route exact path="/Marvel-info">
-              <MainPage />
-            </Route>
-            <Route exact path="/Marvel-info/comics">
-              <ComicsPage />
-            </Route>
-          </Switch>
+          <Routes>
+            <Route path="/Marvel-info" element={<MainPage />} />
+            <Route path="/Marvel-info/comics" element={<ComicsPage />} />
+          </Routes>
         </main>
       </div>
     </Router>
