@@ -29,7 +29,7 @@ const ComicsList = (props) => {
     if (newComicsList.length < 8) {
       ended = true;
     }
-
+    
     setComicsList((comicsList) => [...comicsList, ...newComicsList]);
     setNewItemLoading((newItemLoading) => false);
     setOffset((offset) => offset + 8);
